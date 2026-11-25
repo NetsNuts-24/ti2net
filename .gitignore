@@ -1,0 +1,48 @@
+# ---- Data, features, weights (never committed; CLAUDE.md "Layout") ----
+data/
+id_vectors/
+weights/
+merged_id_vectors.zip
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.zip
+
+# Kaggle upload bundle (copy of the official repo + weights + our src)
+kaggle/ti2net-assets/
+kaggle/ti2net-assets.zip
+
+# Reference paper PDF (publisher copy, not ours to redistribute)
+Liu_TI2Net_*.pdf
+
+# ---- Run outputs ----
+runs/
+outputs/
+checkpoints/
+logs/*.log
+wandb/
+*.out
+
+# Keep the split files and our committed merge log
+!src/r1/splits/*.json
+!docs/logs/*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.claude/settings.local.json
+Thumbs.db
+desktop.ini
+.DS_Store

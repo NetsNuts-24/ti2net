@@ -1,0 +1,75 @@
+11.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+11.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+11.9s 3 0.00s - to python to disable frozen modules.
+11.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+12.8s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+12.8s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+12.8s 7 0.00s - to python to disable frozen modules.
+12.8s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+20.4s 9 extraction outputs attached:
+20.4s 10 /kaggle/input/datasets/netiji/ti2net-ids-half05/id_vectors/FFpp_c23
+20.4s 11 /kaggle/input/datasets/netiji/ti2net-ids-half1/id_vectors/FFpp_c23
+22.4s 12 authors length files: /kaggle/input/datasets/netiji/ti2net-assets/authors_released
+22.5s 13 Writing /kaggle/working/src/merge_ids.py
+252.1s 14 [real] videos 1000 | vectors 509035 | dim {1024} | {'frames': 509128, 'faces': 509035, 'no_face': 93, 'multi_face': 11789, 'fallback': 14739}
+252.1s 15 [real] shortest 287, longest 1814, videos under 131 frames: 0 []
+252.1s 16 [real] most frames without a face (count, video): [(50, '509'), (12, '128'), (6, '950'), (6, '850'), (6, '370'), (4, '629'), (4, '170'), (2, '704')]
+252.1s 17 [real] videos the authors flag as bad (name, vectors, no_face): [('281', 309, 0), ('344', 631, 0), ('356', 558, 0), ('370', 390, 6), ('492', 347, 0), ('509', 513, 50), ('738', 417, 0), ('908', 667, 0), ('950', 757, 6)]
+449.2s 18 [df] videos 1000 | vectors 507897 | dim {1024} | {'frames': 509128, 'faces': 507897, 'no_face': 1231, 'multi_face': 12165, 'fallback': 17112}
+449.2s 19 [df] shortest 91, longest 1814, videos under 131 frames: 1 [('638_640', 91)]
+449.2s 20 [df] most frames without a face (count, video): [(607, '638_640'), (150, '569_921'), (63, '805_011'), (55, '851_552'), (55, '509_525'), (47, '513_305'), (44, '894_848'), (37, '128_896')]
+449.2s 21 [df] videos the authors flag as bad (name, vectors, no_face): [('281_474', 309, 0), ('344_020', 631, 0), ('356_324', 558, 0), ('370_483', 386, 10), ('492_325', 347, 0), ('509_525', 508, 55), ('738_804', 417, 0), ('908_207', 667, 0), ('950_836', 754, 9)]
+642.1s 22 [ff] videos 1000 | vectors 508966 | dim {1024} | {'frames': 509128, 'faces': 508966, 'no_face': 162, 'multi_face': 11824, 'fallback': 15646}
+642.1s 23 [ff] shortest 287, longest 1814, videos under 131 frames: 0 []
+642.1s 24 [ff] most frames without a face (count, video): [(91, '618_629'), (43, '509_525'), (7, '653_601'), (5, '370_483'), (4, '850_764'), (4, '629_618'), (2, '704_723'), (2, '027_009')]
+642.1s 25 [ff] videos the authors flag as bad (name, vectors, no_face): [('281_474', 296, 0), ('344_020', 390, 0), ('356_324', 1249, 0), ('370_483', 370, 5), ('492_325', 1421, 0), ('509_525', 474, 43), ('738_804', 359, 0), ('908_207', 346, 0), ('950_836', 343, 0)]
+828.3s 26 [fs] videos 1000 | vectors 406024 | dim {1024} | {'frames': 406140, 'faces': 406024, 'no_face': 116, 'multi_face': 8970, 'fallback': 12168}
+828.3s 27 [fs] shortest 287, longest 1038, videos under 131 frames: 0 []
+828.3s 28 [fs] most frames without a face (count, video): [(50, '509_525'), (11, '641_662'), (8, '448_361'), (7, '559_543'), (6, '850_764'), (5, '905_860'), (5, '370_483'), (4, '629_618')]
+828.3s 29 [fs] videos the authors flag as bad (name, vectors, no_face): [('281_474', 296, 0), ('344_020', 390, 0), ('356_324', 558, 0), ('370_483', 370, 5), ('492_325', 347, 0), ('509_525', 467, 50), ('738_804', 359, 0), ('908_207', 346, 0), ('950_836', 343, 0)]
+1008.9s 30 [nt] videos 1000 | vectors 405948 | dim {1024} | {'frames': 406137, 'faces': 405948, 'no_face': 189, 'multi_face': 8895, 'fallback': 12809}
+1008.9s 31 [nt] shortest 193, longest 1038, videos under 131 frames: 0 []
+1008.9s 32 [nt] most frames without a face (count, video): [(103, '603_575'), (49, '509_525'), (10, '653_601'), (8, '370_483'), (5, '850_764'), (4, '629_618'), (4, '447_431'), (2, '704_723')]
+1008.9s 33 [nt] videos the authors flag as bad (name, vectors, no_face): [('281_474', 296, 0), ('344_020', 390, 0), ('356_324', 558, 0), ('370_483', 367, 8), ('492_325', 347, 0), ('509_525', 468, 49), ('738_804', 359, 0), ('908_207', 346, 0), ('950_836', 343, 0)]
+1008.9s 34 ALL STRUCTURE CHECKS PASSED
+1009.2s 35 [real] total: ours 509035, authors 481034, ours/authors 1.0582 | median: ours 457, authors 460 | min: ours 287, authors 100
+1009.2s 36 [real] same position: equal 840, within 5 frames 847, within 5% 852 of 1000
+1009.2s 37 [real] largest gaps (video, ours, authors): [('951', 1176, 100), ('867', 1489, 517), ('989', 960, 100), ('924', 1248, 463), ('982', 845, 100), ('986', 828, 100), ('945', 761, 100), ('978', 757, 100), ('950', 757, 100), ('992', 718, 100)]
+1009.2s 38 [real] same lengths ignoring order: within 5 frames 181 of 1000
+1009.2s 39 [df] total: ours 507897, authors 508451, ours/authors 0.9989 | median: ours 457, authors 457 | min: ours 91, authors 250
+1009.2s 40 [df] same position: equal 350, within 5 frames 367, within 5% 417 of 1000
+1009.2s 41 [df] largest gaps (video, ours, authors): [('423_421', 1814, 311), ('422_695', 316, 1814), ('867_765', 1489, 431), ('866_878', 509, 1489), ('391_406', 547, 1496), ('495_512', 573, 1496), ('392_339', 1496, 579), ('924_917', 1248, 356), ('799_809', 1227, 338), ('496_417', 1496, 621)]
+1009.2s 42 [df] same lengths ignoring order: within 5 frames 992 of 1000
+1009.2s 43 [ff] total: ours 508966, authors 508006, ours/authors 1.0019 | median: ours 457, authors 457 | min: ours 287, authors 250
+1009.2s 44 [ff] same position: equal 1, within 5 frames 14, within 5% 75 of 1000
+1009.2s 45 [ff] largest gaps (video, ours, authors): [('419_824', 577, 1814), ('765_867', 1489, 299), ('415_484', 319, 1496), ('017_803', 297, 1385), ('268_269', 387, 1465), ('269_268', 1465, 390), ('763_930', 448, 1489), ('490_534', 384, 1421), ('338_336', 507, 1496), ('915_895', 294, 1248)]
+1009.2s 46 [ff] same lengths ignoring order: within 5 frames 978 of 1000
+1009.2s 47 [fs] total: ours 406024, authors 405560, ours/authors 1.0011 | median: ours 375, authors 374 | min: ours 287, authors 250
+1009.2s 48 [fs] same position: equal 20, within 5 frames 64, within 5% 154 of 1000
+1009.2s 49 [fs] largest gaps (video, ours, authors): [('421_423', 1038, 306), ('418_507', 319, 1038), ('423_421', 1038, 335), ('496_417', 861, 313), ('414_385', 349, 861), ('491_226', 328, 802), ('442_195', 333, 802), ('493_538', 395, 861), ('515_519', 751, 295), ('519_515', 751, 331)]
+1009.2s 50 [fs] same lengths ignoring order: within 5 frames 997 of 1000
+1009.2s 51 [nt] total: ours 405948, authors 452854, ours/authors 0.8964 | median: ours 375, authors 404 | min: ours 193, authors 100
+1009.2s 52 [nt] same position: equal 19, within 5 frames 49, within 5% 125 of 1000
+1009.2s 53 [nt] largest gaps (video, ours, authors): [('900_926', 333, 1814), ('901_902', 295, 1496), ('902_901', 295, 1496), ('903_792', 383, 1489), ('904_046', 359, 1465), ('906_847', 301, 1385), ('905_860', 382, 1421), ('910_911', 292, 1260), ('911_910', 292, 1254), ('915_895', 294, 1227)]
+1009.2s 54 [nt] same lengths ignoring order: within 5 frames 98 of 1000
+1866.2s 55 real: 1000 videos, 509035 frames, dim 1024, dropped 0 []
+1866.2s 56 fake: 4000 videos, 1828835 frames, dim 1024, dropped 0 []
+1866.4s 57 real: 1000 videos, 509035 frames, dim 1024, dropped 0 []
+1866.4s 58 fake: 4000 videos, 1828835 frames, dim 1024, dropped 0 []
+1880.8s 59 real: merged 1000 videos, 509035 vectors, finite True, spot check passed
+1886.1s 60 fake: merged 4000 videos, 1828835 vectors, finite True, spot check passed
+1886.1s 61 check_report.txt 0.00 GB
+1886.1s 62 fake_ids.npy 7.49 GB
+1886.1s 63 fake_lens.npy 0.00 GB
+1886.1s 64 fake_names.txt 0.00 GB
+1886.1s 65 real_ids.npy 2.09 GB
+1886.1s 66 real_lens.npy 0.00 GB
+1886.1s 67 real_names.txt 0.00 GB
+1894.4s 68 /usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+1894.4s 69 cells[i][c] = re.sub('\\\\\|', '|', cell)
+1894.9s 70 /usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+1894.9s 71 text = re.sub(r'_', '\_', text) # Escape underscores in display text
+1897.0s 72 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+1897.2s 73 [NbConvertApp] Writing 23017 bytes to __notebook__.ipynb
+1904.0s 74 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1905.4s 75 [NbConvertApp] Writing 345199 bytes to __results__.html

@@ -1,0 +1,3 @@
+[submodule "TI2Net"]
+	path = TI2Net
+	url = https://github.com/BaopingLiu/TI2Net.git
